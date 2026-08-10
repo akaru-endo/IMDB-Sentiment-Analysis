@@ -28,10 +28,10 @@ IMDB データセット（Trainデータ）での学習および評価結果：
 └── README.md         # 本ファイル
 
 .
-├── train.py          # モデル定義、学習および精度評価スクリプト
-├── predict.py        # 任意のテキストを入力して判定する推論スクリプト
-├── requirements.txt  # 依存ライブラリ一覧
-└── README.md         # 本ファイル
+├── train.py          
+├── predict.py        
+├── requirements.txt 
+└── README.md         
 
 ## 使い方
 
