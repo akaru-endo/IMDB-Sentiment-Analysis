@@ -23,7 +23,7 @@ IMDB データセット（Trainデータ）での学習および評価結果：
 ## ディレクトリ構成
 
 .
-├── train.py          # pythonコードのすべてのスクリプト
+├── transformer-learning3.ipynb # pythonコードのすべてのスクリプト
 ├── requirements.txt  # 依存ライブラリ一覧
 └── README.md         # 本ファイル
 
