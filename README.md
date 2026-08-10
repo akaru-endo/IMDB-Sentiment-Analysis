@@ -4,7 +4,7 @@ PyTorchを用いてTransformer (Encoder) をスクラッチ実装し、映画レ
 
 ## 概要
 
-ライブラリの組み込みモデル（`nn.TransformerEncoder` など）に頼らず、Multi-Head Attention や Positional Encoding などの基本構造を PyTorch でイチから実装しています。
+ライブラリの組み込みモデル（`nn.TransformerEncoder` など）を使わずにMulti-Head Attention や Positional Encoding などの基本構造を PyTorch でイチから実装しています。
 テキストの前処理およびトークナイズには Hugging Face の `bert-base-uncased` を使用しています。
 
 ## モデル構造
@@ -23,8 +23,7 @@ IMDB データセット（Trainデータ）での学習および評価結果：
 ## ディレクトリ構成
 
 .
-├── train.py          # モデル定義、学習および精度評価スクリプト
-├── predict.py        # 任意のテキストを入力して判定する推論スクリプト
+├── train.py          # pythonコードのすべてのスクリプト
 ├── requirements.txt  # 依存ライブラリ一覧
 └── README.md         # 本ファイル
 
