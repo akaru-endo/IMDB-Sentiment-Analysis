@@ -18,24 +18,9 @@ PyTorchを用いてTransformer (Encoder) をスクラッチ実装し、映画レ
 
 IMDB データセット（Trainデータ）での学習および評価結果：
 
-- Training Accuracy: 99.40%
-
-## ディレクトリ構成
-
-.
-├── transformer-learning3.ipynb # pythonコードのすべてのスクリプト
-├── requirements.txt  # 依存ライブラリ一覧
-└── README.md         # 本ファイル
-
-.
-
-├── train.py          
-├── predict.py        
-├── requirements.txt 
-└── README.md         
+- Training Accuracy: 99.40%      
 
 ## 使い方
-
 ### 1. 依存ライブラリのインストール
 
 ```bash
