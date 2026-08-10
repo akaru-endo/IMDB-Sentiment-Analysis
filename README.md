@@ -28,6 +28,7 @@ IMDB データセット（Trainデータ）での学習および評価結果：
 └── README.md         # 本ファイル
 
 .
+
 ├── train.py          
 ├── predict.py        
 ├── requirements.txt 
